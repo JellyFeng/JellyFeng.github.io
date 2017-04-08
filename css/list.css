@@ -1,0 +1,41 @@
+
+.side-pic > * {
+    float:left;
+    margin-right:5px;
+}
+
+.table {
+    *zoom:1 /* for IE */
+}
+
+.table:before,
+.table:after {
+    content: " ";
+    display: table;
+}
+
+.table:after {
+    clear: both;
+}
+
+body > li {
+    border:1px dashed red;
+    margin-bottom:10px;    
+}
+
+p {
+	color:#a6a6a6;
+}
+
+.table a {
+	color:orange;
+	text-decoration:underline;
+}
+
+.table li{
+	list-style:none;
+}
+
+.table a:hover {
+	color:#e69500;
+}
